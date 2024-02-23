@@ -1,0 +1,17 @@
+.recipeImage img {
+  width: 100px;
+  margin: 10px;
+}
+
+.recipeWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+.recipeWrapper p {
+  text-align: center;
+  font-weight: bold;
+}

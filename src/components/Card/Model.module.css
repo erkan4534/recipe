@@ -1,0 +1,29 @@
+.detail {
+  background-color: green !important;
+  border-color: green !important;
+}
+
+.detail button {
+  font-size: 14px !important;
+  display: flex;
+  column-gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBodyInside {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 2fr));
+  justify-items: center;
+  align-items: flex-start;
+}
+
+.modalBodyInside img {
+  width: 200px;
+}
+
+.modalBodyInside p {
+  height: 200px;
+  overflow-y: auto;
+}
