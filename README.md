@@ -10,5 +10,5 @@ Currently, two official plugins are available:
 - start with <b>npm run dev</b>
 
 ![alt text](image.png)
-
+<br/><br/><br/>
 ![alt text](image-1.png)
